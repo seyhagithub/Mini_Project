@@ -1,0 +1,34 @@
+@media(max-width: 768px){
+	.navbar-nav > li > a {
+	    padding-top: 10px !important;
+	    padding-bottom: 10px !important;
+	    color: #fff;
+	    font-size: 1.2em;
+	}
+	.navbar-brand {
+	    padding: 10px !important;
+	}
+	.navbar-inverse .navbar-toggle {
+	     border-color: none; 
+	}
+	
+	.navbar-inverse .navbar-toggle {
+	    border-color: #333;
+	}
+	.navbar-toggle:hover,.navbar-toggle:focus{
+		background: transparent !important;
+	}
+	.navbar-inverse .navbar-collapse{
+		border: none !important;
+	}
+	.navbar-nav > li > a:hover{
+		background-color: none;
+	}
+	.dropdown-menu > li > a:hover{
+		background-color: none;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+		color: rgba(255,255,255,.8);
+	}
+
+}

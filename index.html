@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <!--  <link rel="icon" href="../../favicon.ico"> -->
+    <title>Restaurant Menu Integration</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/mainPage.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/screen.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tinycarousel.css" media="screen"/>
+</head>
+<body id="pageTop">
+  <!--  ======== navbar ========= -->
+    <nav class="navbar navbar-inverse navbar-ab navbar-fixed-top" id="slide-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">King of menu restaurant</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Khmer</a></li>
+                <li><a href="#">Thai</a></li>
+                <li><a href="#">Korean</a></li>
+                <li><a href="#">Vietname</a></li>
+                <li><a href="#">Janpan</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> Sign in/up</a></li>
+            <li><a href="#about"><i class="fa fa-search"></i> Search</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <!--  =============  slideshow ============ !-->
+    <section class="slideshow">
+        <div class="">
+            <div id="generic" class="carousel fade" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#generic" data-slide-to="0" class="active"></li>
+                <li data-target="#generic" data-slide-to="1"></li>
+                <li data-target="#generic" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/slideshow/slide01.jpg" alt="Your browser not support">
+                  <div class="carousel-caption">
+                    <h1>Fast Service</h1>
+                    <p>BEST FOOD & BEST ATMOSPHERE</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/slideshow/slide02.jpg" alt="Your browser not support">
+                  <div class="carousel-caption">
+                    <h1>The Best</h1>
+                    <p>FOOD TO MAKE YOU FEEL GOOD</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/slideshow/slide03.jpg" alt="Your browser not support">
+                  <div class="carousel-caption">
+                    <h1>Discover</h1>
+                    <p>THE NEW WAY TO LOVE FOOD</p>
+                  </div>
+                </div>
+              <!-- Controls -->
+              <a class="left carousel-control" href="#generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div><!-- container-fluid -->
+    </section>
+   <!-- ============= show menu ========-->
+   <section class="showMenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                   <img src="images/chef.png" class="img-responsive">
+                </div>
+                <div class="col-md-7">
+                    <h1>WELCOME TO OUR RESTAURANT!</h1>
+                    <p>Chef Gerald Chavez together with Sous-Chef Ralph Hawkins offer you perfect cooking, best served dishes made from fresh ingredients by using old recipes. We have only carefully sourced and seasonal ingredients in our disposal to make home-made dishes.</p>
+                    <button class="btn-more">read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============= three feather ========-->
+    <section class="threeFeather">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="img-box">
+                        <img src="images/threefeather_01.jpg" class="img-responsive effect1">
+                    </div>
+                    <div class="desThF effect1">
+                        <h1>Menu</h1>
+                        <p>In assortment we offer different menus that perfectly replace your full lunch or dinner. Choose a menu according to your tastes.
+                        </p>
+                    </div>
+                    <button class="btn-more">More</button>
+                </div>
+                 <div class="col-md-4">
+                    <div class="img-box">
+                        <img src="images/threefeather_02.jpg" class="img-responsive effect2">
+                    </div>
+                    <div class="desThF effect2">
+                         <h1>Meat sets</h1>
+                        <p>We provide only fresh meat. For set offer a choice of six different, but equally delicious sauces: cheese, ketchup, barbecue, sweet and sour, curry, mayonnaise.
+                        </p>
+                    </div>
+                    <button class="btn-more">More</button>
+                </div>
+                 <div class="col-md-4">
+                    <div class="img-box">
+                        <img src="images/threefeather_03.jpg" class="img-responsive effect3">
+                    </div>
+                    <div class="desThF effect3">
+                         <h1>Veterarian Menu</h1>
+                        <p>Unique vegetarian menu will help you to enjoy delicious non-meat dishes, keep your health and fit.
+                        </p>
+                    </div>
+                    <button class="btn-more">More</button>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- ========= Feather Menu ========-->
+    <section class="featherMenu">
+        <div class="container text-center">
+            <div class="virticalTop"></div>
+            <h1>FEATURED MENU</h1>
+            <h3>WE FOLLOW THE HIGHEST STANDARDS AT ALL STAGES OF PRODUCTION</h3>
+            <h3>FEATURED MENU WE FOLLOW THE HIGHEST STANDARDS AT ALL STAGES OF PRODUCTION</h3>
+            <p>
+All of our dishes are gastronomic, created by the principle of interesting and complex combinations of ingredients. Each month the menu is updated, so guests can enjoy seasonal products, which are outside the box.</p>
+        </div>
+    </section>
+    <!-- ========= Carousel Food ========-->
+    <section class="carouselfood">
+      <div class="container text-center">
+        <h1>We offer the best meals at the best value</h1>
+      </div>
+      <div id="slider1">
+        <div class="bg-prev">
+          <a class="buttons prev" href="#"><i class="fa fa-angle-left fa-5x"></i></a>
+        </div><!-- end bg-prev -->
+        <div class="container-fluid">
+          <div class="viewport">
+            <ul class="overview">
+              <li class="imgfirst">
+                <img src="images/carousel/carousel-1.jpg" width="405px" />
+                <div class="descc1">
+                  <h3>Salad Menu:</h3>
+                  <h5>Caesar Salad</h5>
+                  <h5>Roasted Beet Salad</h5>
+                  <h5>Bistro Salad</h5>
+                  <h5>Caprese Salad</h5>
+                  <h5>Bella Salad</h5>
+                  <button class="btn-more">view more</button>
+                </div>
+              </li>
+              <li class="imgsecond">
+                <img src="images/carousel/carousel-2.jpg"  width="405px"/>
+                <div class="descc2">
+                  <h3>Grill Menu:</h3>
+                  <h5>All Steaks Come with Parmesan Fries and Haricot Verts</h5>
+                  <h5>Twin Filets</h5>
+                  <h5>Grilled Ribeye</h5>
+                  <h5>House Tumbled Steak Tips</h5>
+                  <h5>Grilled Pork Chops with Maple Whiskey Glaze</h5>
+                  <h5>Sauces~ Gorgonzola Butter, Chianti Demi, Roasted Garlic-Basil Butter</h5>
+                  <button class="btn-more">view more</button>
+                </div>
+              </li>
+              <li class="imgthird">
+                <img src="images/carousel/carousel-3.jpg"  width="405px"/>
+                  <div class="descc3">
+                    <h3> Seafood Menu:</h3>
+                    <h5>Baked Haddock</h5>
+                    <h5>Grilled Asparagus, Yukon Potatoes</h5>
+                    <h5>Cioppino</h5>
+                    <h5>Roma Tomatoes, Capers, Marinara served with Starch</h5>
+                    <h5>Mussels Red</h5>
+                    <h5>Spicy Sausage, Red Sauce, Linguines</h5>
+                    <h5>Shrimp Scampi</h5>
+                    <h5>Sauteed Shrimp and Scallion in a garlic scampi sauce</h5>
+                    <button class="btn-more">view more</button>
+                  </div>
+              </li>
+              <li class="imgfourth">
+                <img src="images/carousel/carousel-4.jpg"  width="405px"/>
+                <div class="descc4">
+                  <h3>Pasta Menu:</h3>
+                  <h5>Cavatapi</h5>
+                  <h5>Smoked Mozzarella, Sun-Dried Tomato, Spinach</h5>
+                  <h5>Ricotta Gnocchi</h5>
+                  <h5>Broccolini, Sausage, Garlic, Parmesan</h5>
+                  <h5>Eggplant Rollentini</h5>
+                  <h5>Poached Chicken, Spinach, Parmesan, Mozzarella Cheese</h5>
+                  <h5>Chicken Broccoli Penne</h5>
+                  <h5>Fresh Garlic, Cream, Parmesan Cheese</h5>
+                  <h5>Pasta Louise</h5>
+                  <button class="btn-more">view more</button>
+                </div>
+              </li>
+            </ul>
+          </div><!-- end viewport -->
+        </div><!-- end container-fluid -->
+        <div class="bg-next">
+          <a class=" next" href="#"><i class="fa fa-angle-right fa-5x"></i></a>
+        </div>
+      </div><!-- end slider1  -->
+    </section>
+     
+    <!-- ============= footer ========-->
+    <footer>
+       <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>COMPANY</h3>
+              <ul class="list-unstyled company">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Products</a></li>
+                  <li><a href="#">Photo Gallery</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h3>CUSTOMER SERVICE</h3>
+              <ul class="list-unstyled company">
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Find Your Restaurant</a></li>
+                  <li><a href="#">Site Map</a></li>
+              </ul>
+          </div>
+          <div class="col-md-5">
+            <div class="follow">
+              <h3>Follow us</h3>
+              <ul class="list-unstyled social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- end row -->
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9">
+          <div class="newletter">
+              <h3>NEWSLETTER</h3>
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="subscribe">subscribe</label>
+                    <div class="form-subscribe">
+                      <input type="text" class="form-control" id="subscribe" placeholder="Enter Your Eamil.....">
+                      <button type="submit" class="btnSubscribe">Subscribe</button></div> 
+                </div>
+              </form>
+              </div>
+          </div><!-- end col md -9 -->
+        </div><!-- end row -->
+        <hr/>
+        <p>Copy Right 2016. All right reserved.</p>
+        
+      </div><!-- end container -->
+    </footer>
+    <!-- ============= Go To Page Up ========-->
+    <a href="#pageTop" data-scroll>
+    <div class="gotoTop">
+        <i class="glyphicon glyphicon-menu-up"></i>
+    </div>
+    </a>
+    <!--  ========= Calling Script source ========= -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/jquery.tinycarousel.js"></script>
+    <script src="js/js.js"></script>
+    
+</body>
+</html>

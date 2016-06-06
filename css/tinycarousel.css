@@ -1,0 +1,144 @@
+/* Tiny Carousel */
+#slider1 {
+    height: 1%;
+    /*margin: 30px 0 0;*/
+    overflow: hidden;
+    position: relative;
+   /* padding: 0 50px 10px;
+    padding-bottom: 0px;*/
+    padding:0px;
+}
+#slider1 img{
+    transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+#slider1 img:hover{
+    transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, 
+    M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, 
+    SizingMethod='auto expand'); /* IE6 and 7 */ 
+}
+
+#slider1 .viewport {
+    height: 775px;
+    overflow: hidden;
+    position: relative;
+   
+}
+ .bg-prev{
+    height: 924px;
+    width: 55px;
+    position: absolute;
+    z-index: 100;
+    color: #000;
+   text-align: center;
+}
+ .bg-prev:hover{
+    background: #000000;
+    transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  color: #fff;
+}
+.bg-prev:hover a{
+    transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  color: #fff;
+}
+.buttons {
+    background: #C01313;
+    display: block;
+    position: absolute;
+    top: 42%;
+    left: 15%;
+   /* width: 35px;
+    height: 35px;*/
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    z-index: 100;
+  /* background: rgba(38, 38, 38, 0.47);*/
+  background-color: transparent;
+    text-align: center;
+}
+#slider1 .bg-next{
+   
+    float: right;
+    width: 55px;
+    height: 924px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#slider1 .bg-next:hover{
+    background: #000000;
+     transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+#slider1 .bg-next:hover a{
+     color: #fff;
+     transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+#slider1 .next {
+    right: 0;
+    left: auto;
+    top: 42%;
+    color: #000000;
+    position: absolute;
+    width: 38px;
+}
+
+#slider1 .buttons:hover {
+    /*color: #C01313;*/
+    /*background: #fff;*/
+}
+
+#slider1 .disable {
+    visibility: hidden;
+}
+
+#slider1 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+}
+
+#slider1 .overview li {
+    float: left;
+    margin:0;
+    padding:0;
+    height: 924px;
+   /* border: 1px solid #dcdcdc;
+    width: 236px;*/
+    overflow: hidden;
+ }
+ .viewport {
+    width: none !important;
+    
+}
